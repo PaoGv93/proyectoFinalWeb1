@@ -1,0 +1,117 @@
+<htmls>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Open+Sans+Condensed:300,700" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+
+</head>
+<body>
+<div id="logo" class="container">
+	<h1><span class="icon icon-lock icon-size"></span><a href="index.html">La <span>Favorita</span></a></h1>
+	<p>Materiales para construccion</p>
+</div>
+<div id="wrapper" class="container">
+
+	<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Materiales')" id="defaultOpen">Materiales</button>
+  <button class="tablinks" onclick="openCity(event, 'Piedras')">Piedras</button>
+  <button class="tablinks" onclick="openCity(event, 'Otros')">Otros</button>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+document.getElementsByClassName('tablinks')[0].click()
+
+</script>
+
+<div id="Materiales" class="tabcontent" style=display:block>
+	<div id="portfolio">
+		<div class="title">
+			<h2>Materiales</h2>
+			<span class="byline">Materiales para consstrucción</span>
+		</div>
+		<ul>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/block.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/cemento.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/ladrillo.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/teja.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/pvc.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/cal.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/arena.jpg" alt="" /></a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="Piedras" class="tabcontent">
+	<div id="portfolio">
+		<div class="title">
+			<h2>Piedras</h2>
+			<span class="byline">Diversos tipos de grava</span>
+		</div>
+		<ul>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/piedra1.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/piedra2.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/piedra3.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/piedra4.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/piedra5.jpg" alt="" /></a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="Otros" class="tabcontent">
+	<div id="portfolio">
+		<div class="title">
+			<h2>Otros</h2>
+			<span class="byline">Diversos productos varios</span>
+		</div>
+		<ul>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/pala.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/cinta.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/metro.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/flexometro.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/extension.jpeg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/lija.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/espatula.jpeg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/brocha.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/pinza.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/clavo.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/sikasil.jpeg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/martillo.jpeg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/sikalatex.jpg" alt="" /></a></li>
+
+		</ul>
+	</div>
+</div>
+
+
+<!-- copyright
+================================================== -->
+
+<div id="copyright">
+	<p> &copy; 2017 | La Favorita - Cordoba, Veracruz.</p>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script src="app/usuarios.js"></script>
+</body>
+</html>

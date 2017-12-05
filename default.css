@@ -1,0 +1,854 @@
+	html, body
+	{
+		height: 100%;
+	}
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #E9E9E9 url(images/bg01.png) repeat;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 11pt;
+		font-weight: 400;
+		color: #969696;
+	}
+
+
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 900;
+	}
+
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+
+	p
+	{
+		line-height: 180%;
+	}
+
+	strong
+	{
+	}
+
+	a
+	{
+		color: #0000FF;
+	}
+
+	a:hover
+	{
+		text-decoration: none;
+	}
+
+	.container
+	{
+		margin: 0px auto;
+		width: 1200px;
+	}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 0 0;
+	}
+
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+	}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 2em 0em 0em 0em;
+		list-style: none;
+	}
+
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1em;
+	}
+
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #3f3f3f;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+	ul.contact li a.icon-rss:before { background: #F2600B; }
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin-top: 2em;
+		background: #00A4D9;
+		border-radius: 5px;
+		line-height: 4em;
+		padding: 0 3em;
+		-webkit-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+		letter-spacing: 0.25em;
+		text-decoration: none;
+		text-transform: uppercase;
+		outline: 0;
+		white-space: nowrap;
+		font-weight: 900;
+		font-size: 1em !important;
+		color: #fff !important;
+	}
+
+		.button:hover
+		{
+			background: #18ACD9;
+			-webkit-transition: all .25s ease-in-out;
+			-moz-transition: all .25s ease-in-out;
+			-ms-transition: all .25s ease-in-out;
+			-o-transition: all .25s ease-in-out;
+			transition: all .25s ease-in-out;
+		}
+
+		.button:active
+		{
+			background: #0091BD;
+			-webkit-transition: all .25s ease-in-out;
+			-moz-transition: all .25s ease-in-out;
+			-ms-transition: all .25s ease-in-out;
+			-o-transition: all .25s ease-in-out;
+			transition: all .25s ease-in-out;
+		}
+
+			.button-big
+			{
+				line-height: 4em;
+				padding: 0 3em;
+				font-size: 1.1em !important;
+			}
+
+
+			.btn{
+				color: black;
+				display: inline-block;
+				border-radius: 5px;
+				background: #F4F4F4;
+				margin-top: 1em;
+				padding: 1em 3em;
+			}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#wrapper
+	{
+		position: relative;
+		padding: 0em 0em 5em 0em;
+		background: #FFF;
+		box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		height: 10em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		margin: 4em auto 4em auto;
+		text-transform: uppercase;
+	}
+
+	#logo h1
+	{
+		font-size: 2.2em;
+		color: #292929;
+	}
+
+	#logo h1 a
+	{
+		margin-left: 0.50em;
+		text-decoration: none;
+		font-size: 1.5em;
+		color: #292929;
+	}
+
+	#logo span
+	{
+		color: #01A9DC;
+	}
+
+	#logo .icon-size
+	{
+		padding-top: 0.20em;
+		font-size: 2em !important;
+		color: #01A9DC;
+	}
+
+	#logo p
+	{
+		margin: 0;
+		padding: 0 0 0 5em;
+		letter-spacing: 0.10em;
+		font-size: 0.90em;
+		color: #828282;
+	}
+
+	#logo p a
+	{
+		text-decoration: none;
+		color: #828282;
+	}
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		background: #292929;
+	}
+
+	#menu ul
+	{
+		margin: 0;
+		padding: 0px 0px 0px 0px;
+		list-style: none;
+		line-height: normal;
+		text-align: center;
+	}
+
+	#menu li
+	{
+		display: inline-block;
+	}
+
+	#menu a
+	{
+		display: block;
+		padding: 0em 2em;
+		line-height: 80px;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1em;
+		font-weight: 700;
+		color: #838383;
+	}
+
+	#menu .current_page_item a
+	{
+		background: #01A9DC;
+		color: #FFF;
+	}
+
+	#menu a:hover
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+	}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		overflow: hidden;
+		width: 1100px;
+		padding: 0em 50px 5em 50px;
+		background: #F4F4F4;
+		color: #191919;
+	}
+
+	#page .arrow-down {
+		border-top-color: #FFF !important;
+	}
+
+	#page .title
+	{
+		padding: 3em 0em;
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+	}
+
+	#page .title h2
+	{
+		font-size: 2em;
+		color: #474747;
+	}
+
+	#page .title .byline
+	{
+		padding-top: 0.50em;
+		font-size: 0.90em;
+		color: #858585;
+	}
+
+	#page a
+	{
+		color: #01A9DC;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+	}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		padding: 6em 0em;
+		font-size: 0.70em;
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 1px #FFF;
+		color: #6A6A6A;
+	}
+
+	#copyright a
+	{
+		color: #747474;
+	}
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+	#portfolio
+	{
+		position: relative;
+		overflow: hidden;
+		width: 1050px;
+		padding: 0em 75px 6em 75px;
+		background: #292929 url(images/bg01.png) repeat;
+	}
+
+	#portfolio ul
+	{
+		margin-bottom: 2em;
+		padding: 0;
+		list-style: none;
+	}
+
+	#portfolio li
+	{
+		float: left;
+		width: 310px;
+		margin: 0px 10px;
+		padding: 10px 10px;
+	}
+
+	#portfolio li img
+	{
+		border: 10px solid rgba(0,0,0,.10);
+	}
+
+	#portfolio li a
+	{
+		-webkit-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+		opacity: .5;
+	}
+
+	#portfolio li a:hover
+	{
+		-webkit-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+		opacity: 1;
+	}
+
+	#portfolio .current_item a
+	{
+		opacity: 1;
+	}
+
+	#portfolio .title
+	{
+		padding: 3em 0em;
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	#portfolio .title h2
+	{
+		font-size: 2.5em;
+		color: #FFF;
+	}
+
+	#portfolio .title .byline
+	{
+		padding-top: 0.50em;
+		font-size: 0.90em;
+		color: #858585;
+	}
+
+	#portfolio .actions
+	{
+		text-align: center;
+	}
+
+	#portfolio .content
+	{
+		overflow: hidden;
+		padding: 2em 5em 0em 5em;
+		text-align: center;
+		color: #858585;
+	}
+
+	#portfolio .content p
+	{
+		text-shadow: 0px 1px 0px #000;
+		font-size: 1.2em;
+	}
+
+	#portfolio .button
+	{
+		margin: 2em 0.50em 0em 0.50em;
+	}
+
+	#portfolio .arrow-down {
+		border-top-color: #F4F4F4 !important;
+	}
+
+	#pbox1,
+	#pbox2,
+	#pbox3
+	{
+		float: left;
+		width: 400px;
+	}
+
+	.arrow-down {
+		margin: 0 auto;
+		width:0;
+		height:0;
+		border-top: 40px solid #FFF;
+		border-left: 50px solid transparent;
+		border-right: 50px solid transparent;
+		display: block;
+		text-align: center;
+	}
+
+	/*********************************************************************************/
+	/* Contact                                                                          */
+	/*********************************************************************************/
+
+		#Contacto
+		{
+			position: relative;
+			overflow: hidden;
+			width: 1050px;
+			padding: 0em 75px 6em 75px;
+			background: #292929 url(images/bg01.png) repeat;
+		}
+
+		#Contacto .arrow-down {
+			border-top-color: #F4F4F4 !important;
+		}
+
+		#Contacto .title
+		{
+			padding: 3em 0em;
+			letter-spacing: 0.10em;
+			text-transform: uppercase;
+		}
+
+		#Contacto .title h2
+		{
+			font-size: 2em;
+			color: #F4F4F4;
+		}
+
+		#Contacto .title .byline
+		{
+			padding-top: 0.50em;
+			font-size: 0.90em;
+			color: #858585;
+		}
+
+		#Contacto #boxx1
+		{
+			float: left;
+			width: 500px;
+		}
+
+		#Contacto #boxx2
+		{
+			float: right;
+			width: 500px;
+		}
+
+		#Contacto a
+		{
+			color: #01A9DC;
+		}
+
+
+		.form-control {
+		  display: block;
+		  width: 100%;
+		  height: 34px;
+		  padding: 6px 12px;
+		  font-size: 14px;
+		  line-height: 1.42857143;
+		  color: #555;
+		  background-color: #fff;
+		  background-image: none;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+		          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+		  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+		       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		}
+		.form-control:focus {
+		  border-color: #66afe9;
+		  outline: 0;
+		  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+		          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+		}
+		.form-control::-moz-placeholder {
+		  color: #999;
+		  opacity: 1;
+		}
+		.form-control:-ms-input-placeholder {
+		  color: #999;
+		}
+		.form-control::-webkit-input-placeholder {
+		  color: #999;
+		}
+		.form-control::-ms-expand {
+		  background-color: transparent;
+		  border: 0;
+		}
+		.form-control[disabled],
+		.form-control[readonly],
+		fieldset[disabled] .form-control {
+		  background-color: #eee;
+		  opacity: 1;
+		}
+		.form-control[disabled],
+		fieldset[disabled] .form-control {
+		  cursor: not-allowed;
+		}
+		textarea.form-control {
+		  height: auto;
+		}
+		input[type="search"] {
+		  -webkit-appearance: none;
+		}
+
+		/*********************************************************************************/
+		/* Mapa                                                                 */
+		/*********************************************************************************/
+
+		#Mapa
+		{
+			overflow: hidden;
+			width: 1100px;
+			padding: 0em 50px 5em 50px;
+			background: #F4F4F4;
+			color: #191919;
+		}
+
+		#Mapa .arrow-down {
+			border-top-color: #F4F4F4 !important;
+		}
+
+		#Mapa .title
+		{
+			padding: 3em 0em;
+			letter-spacing: 0.10em;
+			text-transform: uppercase;
+		}
+
+		#Mapa .title h2
+		{
+			font-size: 2em;
+			color: #474747;
+		}
+
+		#Mapa .title .byline
+		{
+			padding-top: 0.50em;
+			font-size: 0.90em;
+			color: #858585;
+		}
+
+		#Mapa a
+		{
+			color: #01A9DC;
+		}
+
+	/*********************************************************************************/
+	/* Three Columns                                                                 */
+	/*********************************************************************************/
+
+	#three-column
+	{
+		overflow: hidden;
+		text-align: center;
+		color: #525252;
+	}
+
+	#three-column h2
+	{
+		margin: 1em 0em;
+		text-transform: uppercase;
+		font-size: 1.5em;
+		font-weight: 700;
+		color: #454445;
+	}
+
+	#three-column .icon
+	{
+		position: relative;
+		display: block;
+		margin: 0px auto 0.80em auto;
+		line-height: 150px;
+		font-size: 4em;
+		background: #FFF;
+		width: 150px;
+		height: 150px;
+		border-radius: 100px;
+		border: 6px solid #00A4D9;
+		text-align: center;
+		color: #00A4D9;
+	}
+
+	#three-column #tbox1,
+	#three-column #tbox2,
+	#three-column #tbox3
+	{
+		float: left;
+		width: 320px;
+		padding: 80px 40px 80px 40px;
+	}
+
+	#three-column .title
+	{
+		letter-spacing: 0.10em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	#three-column .title h2
+	{
+		font-size: 1.60em;
+		font-weight: 900;
+		font-family: 'Open Sans', sans-serif;
+		color: #00A4D9;
+	}
+
+	#three-column .title .byline
+	{
+		padding-top: 0.50em;
+		font-size: 0.90em;
+		color: #858585;
+	}
+
+	#three-column .arrow-down
+	{
+		border-top-color: #F4F4F4;
+	}
+
+
+	/*********************************************************************************/
+	/* Tabs                                                                 */
+	/*********************************************************************************/
+
+	/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
+.bttn{
+	color: black;
+	display: inline-block;
+	border-radius: 5px;
+	background: #F4F4F4;
+	margin-top: .5em;
+	padding: .5em 1em;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}

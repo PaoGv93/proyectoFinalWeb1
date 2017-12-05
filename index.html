@@ -1,0 +1,203 @@
+<htmls>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.gogoleapis.com/css?family=Open+Sans:400,300,600,700,800|Open+Sans+Condensed:300,700" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+
+</head>
+<body>
+<a href="login.html" class="bttn"style="position: absolute; right: 40;">Inicia Sesión</a>
+
+	<div id="logo" class="container">
+	<h1><span class="icon icon-lock icon-size"></span><a href="#">La <span>Favorita</span></a></h1>
+	<p>Materiales para construccion</p>
+</div>
+<div id="wrapper" class="container">
+	<div id="menu" class="container">
+		<ul>
+			<li class="current_page_item"><a href="#" accesskey="1" title="">Inicio</a></li>
+			<li><a href="#page" accesskey="1" title="">Historia</a></li>
+			<li><a href="#three-column" accesskey="2" title="">Servicios</a></li>
+			<li><a href="#portfolio" accesskey="3" title="">Productos</a></li>
+			<li><a href="#Mapa" accesskey="4" title="">Encuentranos</a></li>
+			<li><a href="#Contacto" accesskey="5" title="">Contactanos</a></li>
+		</ul>
+	</div>
+
+	<!-- Historia
+================================================== -->
+<div id="page">
+		<div class="title">
+			<h2>Nuestra Historia</h2>
+			<span class="byline">Asi nos conoces un poco mas</span> </div>
+
+			<img width="300" height="300" align="right" src="images/fotoAntigua.jpg" alt="" />
+
+		<p> Empresa fundada desde <b>1985</b>.<br>
+			Materiales para construccion empezamos con una pequeña tienda ubicada en Córdoba, Veracruz.
+			En la cual vendiamos tejas y cemento. Sin embargo hemos podido crecer a través del tiempo y ahora tenemos una mayor cantidad y calidad en productos.
+			Al día de hoy estamos dedicados no solo a la venta de material de construcción sino tambien para material de decoracion.
+			<br><br>
+			Trabajamos día a día para que tengas un mejor servicio y atención.
+			<br> El cual brindamos en
+			<br> Avenida 15, #1512 en Córdoba, Veracruz.
+		</p>
+		<!--<a href="#" class="button">Más informacion...</a>-->
+</div>
+
+
+	<!-- Servicios
+================================================== -->
+
+<div id="three-column" class="container">
+	<div><span class="arrow-down"></span></div>
+	<div id="tbox1"> <span class="icon icon-legal"></span>
+		<div class="title">
+			<h2>Materiales para construcción</h2>
+		</div>
+		<p>Encontraras materiales como: cemento, barilla, graba, tejas, locetas, alambre, pegamento, etc.</p>
+		<!--<a href="#" class="button">Más...</a>-->
+		</div>
+	<div id="tbox2"> <span class="icon icon-wrench"></span>
+		<div class="title">
+			<h2>Productos</h2>
+		</div>
+		<p> También contamos con herramientas como: palas, pinzas, lijas, martillos, metros, todas las cosas de diversos calibres, medidas; entre muchas cosas más.</p>
+		<!--<a href="#" class="button">Más...</a>-->
+		</div>
+	<div id="tbox3"> <span class="icon icon-truck"></span>
+		<div class="title">
+			<h2>Envío a Domicilio</h2>
+		</div>
+		<p>Contamos con servicio a domicilio en el cual dependiendo la distancia y la cantidad de tu pedido se realiza. Así como entrega entre Cordoba - Orizaba y alrededores.</p>
+		<!--<a href="#" class="button">Más...</a>-->
+		</div>
+</div>
+
+	<!-- Productos
+================================================== -->
+	<div id="portfolio">
+		<div><span class="arrow-down"></span></div>
+		<div class="title">
+			<h2>Productos</h2>
+			<span class="byline">Algunos de los productos que ofrecemos</span>
+		</div>
+		<ul>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/cemento.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/cinta.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/ladrillo.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/teja.jpg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/extension.jpeg" alt="" /></a></li>
+			<li><a href="#" class="image image-full"><img width="300" height="300" src="images/block.jpg" alt="" /></a></li>
+		</ul>
+		<div class="content">
+			<p>Ofrecemos diversos productos, parte de nuestro catalogo se encuentra de manera online, sin embargo debido a la cantidad de productos, podras encontrar en la sucursal los catalogos completos asi como toda la informacion.</p>
+			<div class="actions">
+				<a href="productos.html" class="button button-big">Más productos</a>
+				<a href="#Contacto" class="button button-big button-alt">Contactanos</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Encuentranos(mapa)
+================================================== -->
+	<section id="Mapa">
+		<div><span class="arrow-down"></span></div>
+			<div class="title">
+				<h2>Encuentranos</h2>
+				<span class="byline">Avenida 11, Calles 2 y 4. #1517 Córdoba, Veracruz.</span>
+
+			</div>
+
+			<br>
+
+			<div id="googleMap" style="width:100%;height:400px;"></div>
+
+			<script>
+				function myMap() {
+					var uluru = {
+						lat: 18.892084,
+						lng: -96.939482
+					};
+					var map = new google.maps.Map(document.getElementById('googleMap'), {
+						center: uluru,
+						zoom: 17
+					});
+
+					var marker = new google.maps.Marker({
+						position: uluru,
+						map: map,
+						title: 'ITESM_PUEBLA'
+					});
+				}
+			</script>
+
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJIsYSwrR_NYkd01nvqXnhqBqIAoFFLUo&callback=myMap"></script>
+			<br><br><br>
+
+	</section>
+
+	<!-- Contacto
+================================================== -->
+	<section id="Contacto">
+		<div><span class="arrow-down"></span></div>
+		<div id="boxx1">
+			<div class="title">
+				<h2>Contacto</h2>
+			</div>
+
+				<address>
+						Correo: materialeslafavorita@gmail.com <br> Telefono: (271) 71 4 51 50 <br> Telefono 2: (271) 71 2 13 75
+						<br><br>
+						Horario de atención:<br>
+						Lunes - Viernes  8:00 - 19:00<br>
+						Sabados  8:00 - 15:00
+
+					</address>
+				</div>
+		<div id="boxx2">
+			<div class="title">
+				<h2>Envianos un mensaje:</h2>
+			</div>
+
+		<div class="status alert alert-success" style="display: none"></div>
+		<div class="form-group">
+			<input type="text" name="name" id="name" class="form-control" required="required" placeholder="Nombre"><br>
+		</div>
+		<div class="form-group">
+			<input type="email" name="email" id="email" class="form-control" required="required" placeholder="Correo"><br>
+		</div>
+		<div class="form-group">
+			<textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Escribe tu mensaje"></textarea><br>
+		</div>
+		<div class="form-group">
+			<p>
+				adjunta archivo:
+			</p>
+			<input onchange="uploadDemo()" type="file" id="uploaded_file" name="uploaded_file">
+			<br>
+			<button type="submit" class="btn" onclick="insertUsuario()" id="upload">Enviar </button>
+		</div>
+	</div>
+	</section>
+</div>
+
+
+<!-- copyright
+================================================== -->
+
+<div id="copyright">
+	<p> &copy; 2017 | La Favorita - Cordoba, Veracruz.</p>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script src="app/usuarios.js"></script>
+</body>
+</html>
